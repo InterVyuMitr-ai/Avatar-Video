@@ -1,0 +1,14 @@
+# Inference tasks configuration
+# Each task maps a source video to a target audio file.
+# bbox_shift: shifts the face crop bounding box vertically (negative = up, positive = down).
+#             Tune this if lips appear misaligned. Typical range: -10 to 10.
+
+task_0:
+  video_path: "data/video/source.mp4"
+  audio_path: "data/audio/target.wav"
+  bbox_shift: 0
+
+# task_1:
+#   video_path: "data/video/source.mp4"
+#   audio_path: "data/audio/another.wav"
+#   bbox_shift: -7
